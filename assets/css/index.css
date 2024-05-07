@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: fixed;
+    z-index: 1;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: .5 ease s;
+}
+
+nav ul li a:hover {
+    color: rgb(101, 201, 187);
+    transition: .5 ease s;
+
+}
+
+.btn {
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn button {
+    width: 100%;
+    color: white;
+    background-color: #EC5E3E;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    transition: .5 ease s;
+}
+
+.btn button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    transition: .5 ease s;
+}
+
+#sectionOne {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 700px;
+    background-image: url("https://preview.colorlib.com/theme/charitee/assets/img/hero/h1_hero1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.containerOne {
+
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.content {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content h1 {
+    font-family: "Jost", sans-serif;
+    font-size: 65px;
+    line-height: 70px;
+    font-weight: 500;
+    color: white;
+}
+
+.content p {
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 400;
+    color: white;
+}
+
+button {
+    background-color: rgb(101, 201, 187);
+    color: white;
+    border: none;
+    width: 40%;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    transition: .5s;
+}
+
+button:hover {
+    transition: .5s;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+#sectionTwo {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    background-color: #FCF2EB;
+}
+
+.containerTwo {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.left {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left img {
+    width: 100%;
+}
+
+.containerTwo .right {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(101, 201, 187);
+}
+
+.right h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: rgb(38, 59, 92);
+}
+.right p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color:   rgb(119, 119, 119);
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+.btnOne {
+    background-color:rgb(241, 91, 67);
+    color: white;
+    border: none;
+    width: 47%;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.btnOne:hover {
+    transition: .5s;
+    background-color: transparent;
+    border: 2px solid rgb(241, 91, 67);
+    color: rgb(241, 91, 67);
+}
+.btnTwo { 
+    background-color: transparent;
+     color: rgb(241, 91, 67);
+   
+    width: 47%;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .5s;
+     border: 2px solid rgb(241, 91, 67);
+}
+.btnTwo:hover {
+    transition: .5s;
+     background-color:rgb(241, 91, 67);
+    border: none;
+  color: white; 
+}
+#sectionThree {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+   
+
+}
+
+.containerThree {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.leftTwo {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftTwo h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(101, 201, 187);
+}
+
+.leftTwo h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    color: rgb(38, 59, 92);
+}
+.leftTwo p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color:   rgb(119, 119, 119);
+}
+button {
+    background-color:rgb(241, 91, 67);
+    color: white;
+    border: none;
+    width: 47%;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+button:hover {
+    transition: .5s;
+    background-color: transparent;
+    border: 2px solid rgb(241, 91, 67);
+    color: rgb(241, 91, 67);
+}
+.rightTwo {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightTwo img {
+    width: 100%;
+}
